@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: cadetblue;
+}
+h4{
+    color: chartreuse;
+}
+h5{
+    color: cornflowerblue;
+}
+h6{
+    color: darkgreen;
+}
+p{
+    color: darkblue;
+}
+b{
+    color: brown;
+}
+em{
+    color: aquamarine;
+}
+i{
+    color: crimson;
+}
+div{
+    color: darkkhaki;
+}
+span{
+    color: darkslateblue;
+}
+body{
+    background-color: darkgrey;
+}

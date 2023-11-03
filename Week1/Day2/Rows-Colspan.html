@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rows-Colspan</title>
+</head>
+<style>
+    th,table,td,caption{
+        border: 1px solid;
+    }
+    th,td,caption{
+        padding: 10px 20px;
+        text-align: center;
+    }
+    #m1{
+        background-color: aquamarine;
+    }
+    #m2{
+        background-color: aqua;
+    }
+    #m3{
+        background-color: bisque;
+    }
+    #m4{
+        background-color: blanchedalmond;
+    }
+    caption{
+        background-color:yellowgreen;
+    }
+    #m5{
+        background-color: cadetblue;
+    }
+
+    
+    
+</style>
+<body>
+    <table>
+        <caption>Time Table</caption>
+        <tbody>
+            <tr>
+                <th id="m5" rowspan="7">Hours</th>
+                <th id="m1">Monday</th>
+                <th id="m2">Tuesday</th>
+                <th id="m1">Wednesday</th>
+                <th id="m2">Thusrday</th>
+                <th id="m1">Friday</th>
+        
+            </tr>
+            <tr>
+                <td id="m1" >Maths</td>
+                <td id="m2">Science</td>
+                <td id="m1">English</td>
+                <td id="m2">History</td>
+                <td id="m1">Pt</td>
+            </tr>
+
+            <tr>
+                <td id="m1">Geography</td>
+                <td id="m2">Maths</td>
+                <td id="m1">English</td>
+                <td id="m2">Pt</td>
+                <td id="m1">History</td>
+            </tr>
+            <tr>
+                <td id="m3"  colspan="5">Lunch</td>
+            </tr>
+
+            <tr>
+                <td id="m1">Pt</td>
+                <td id="m2">Maths</td>
+                <td id="m1">History</td>
+                <td id="m2">Science</td>
+                <td id="m1">History</td>
+            </tr>
+
+            <tr>
+                <td id="m1">Science</td>
+                <td id="m2">Geography</td>
+                <td id="m1">Pt</td>
+                <td id="m4" colspan="2" rowspan="2">Project</td>
+                
+            </tr>
+            <tr>
+                <td id="m1">Maths</td>
+                <td id="m2">English</td>
+                <td id="m1">Science</td>
+                
+                
+            </tr>
+
+
+
+            
+        </tbody>
+        
+    </table>
+    
+</body>
+</html>
