@@ -1,0 +1,22 @@
+html{
+    background-color: coral;
+}
+.parent{
+    font-size: 2em;
+    color: blue;
+    border: 3px solid black;
+}
+.child{
+    font-size: 2em; 
+    font-size: 64px;
+    border: 2px dotted ;
+}
+.parent1{
+    /* font-size: 2rem; */
+
+}
+.child1{
+    /* font-size: 2em; */
+
+
+}

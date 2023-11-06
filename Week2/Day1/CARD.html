@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+</head>
+<style>
+    .card{
+        width: 300px;
+       border: 2px solid black;
+       position: relative;
+    }
+    .imgContainer{
+        width:100%;
+        height: 200px;
+        object-fit: cover;
+       color: gray;
+
+    }
+    .imgContainer img{
+        width: 100%;
+        height: 200px;
+        border-bottom: 2px solid black;
+        object-fit: contain;
+    }
+    p{
+        padding: 10px;
+    }
+   .m1{
+        padding: 10px;
+        width: 100%;
+    }
+    .imgContainer button{
+        position: absolute;
+        top: 190px;
+        right: 0px;
+    }
+    .m2{
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        background-color: azure;
+        text-align: center;
+        padding: 3px;
+    }
+    
+
+</style>
+<body>
+    <div class="card">
+        <div class="imgContainer">
+            <img src="../.././Assets/Images/Watch.webp" alt="">
+            <button>View Similar</button>
+        </div>
+        <h1>I Kall Black  Smartwatch 500mAH W4</h1>
+        <p> Brand Name :	I Kall
+            Color :	Black
+            Type of Product :	Smartwatch
+            Battery Capacity :	500mAH
+            Model No :	W4
+            Operating System :	Android and iOS
+            </p>
+            <div class="price">
+                Price:Rs.2990</div>
+            <button class="m1">Add To Cart</button>
+            <div class="m2"><b>Best Seller</b></div>
+    </div>
+    
+</body>
+</html>
